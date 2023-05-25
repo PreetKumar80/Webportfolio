@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Bree+Serif&family=Poppins&display=swap" rel="stylesheet">
+    <title>Preet dev portfolio</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            background-color: rgb(17, 9, 47);
+            color: white;
+
+            font-family: 'Baloo Bhaina 2', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Poppins', sans-serif;
+        }
+
+
+        nav{
+
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            height: 70px;
+            /* background-color: rgb(7, 29, 75); */
+        }
+            
+
+        .left{
+            font-size: 1.6rem;
+        }
+
+        .right ul{
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            margin: 0px 0px 0px 150px;
+
+        }
+        .right ul li{
+           /* text-decoration: none; */
+           list-style: none;
+           margin: 0px 16px;
+
+        }
+        .right ul li a{
+           text-decoration: none;
+           
+           
+
+        }
+        .right ul li a:hover{
+            color: blue;
+           text-decoration: none;
+
+           
+
+        }
+
+
+
+        /* main */
+
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 110px 20px;
+            
+            align-items: center ;
+      }
+
+
+        .leftsection{
+            /* border: 2px solid red; */
+            font-size: 2.7rem;
+        }
+        .rightsection{
+            /* border: 2px solid black; */
+        }
+
+        .firstsection div{
+            width: 30%;
+        }
+
+         .leftsection div{
+            width: 110%;
+         }
+
+        .rightsection img{
+            width: 120%;
+            /* height: 100; */
+            margin: 50px 0px;
+        }
+
+
+
+        /* second section */
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+        }
+        .secondSection .box{
+            width: 80vw;
+            background-color: white;
+            margin: 50px 0px;
+            height: 10px;
+            display: flex;
+        }
+
+
+
+          .secondSection .vertical{
+            background-color: white;
+            width: 2px;
+            height: 98px;
+            margin: 0px 50px;
+          }
+          
+          .secondSection h1{
+            font-size: 1.99rem;
+          }
+          
+
+        .purple{
+            color :purple;
+        }
+
+        #element{
+            color:purple; 
+        }
+
+
+        main hr{
+            border:10px;
+            background:#9c97f1 ; height:1.2px; margin :40px 84px;
+
+        }
+
+
+       
+    </style>
+</head>
+<body>
+     <header>
+        <nav>
+            <div class="left">
+         Preet's Portfolio
+
+            </div>
+
+            <div class="right">
+                 <ul>
+                    <li> <a href="/">Home</a> </li>
+                    <li> <a href="/">Services</a> </li>
+                    <li> <a href="/">About</a>  </li>
+                    <li> <a href="/">Projects</a> </li>
+                    <li> <a href="/">Contact</a> </li>
+                 </ul>
+ 
+            </div>
+ 
+        </nav>
+     </header>
+
+
+<main>
+    <section class="firstsection">
+        <div class="leftsection">My name is <span class="purple">Preet  </span>
+               <div> and I am a passionate</div>
+             <!-- <div> Web Developer.</div>  -->
+            
+            <span id="element"></span>
+        </div>
+        <div class="rightsection"><img src="img/kindpng_42338.png" alt="error">
+        </div>
+
+    </section>
+
+       <hr > 
+    <section class="secondSection">
+        <span>What I have done so far?</span>
+        <h1>Work Experinces</h1>
+
+        <div class="box">
+         <div class="vertical"><img   class="img-1" src="img/32.jfif" alt=""></div>
+         <div class="vertical"></div>
+         <div class="vertical"></div>
+         <div class="vertical"></div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script> 
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer','Web Designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+
+</body>
+</html>
